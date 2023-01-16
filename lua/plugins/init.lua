@@ -51,4 +51,7 @@ return require('packer').startup(function(use)
     use 'windwp/nvim-autopairs'
     use 'tpope/vim-surround' -- cs'",ysiw], yss(, dsw". In v-line shif->s to write a tag
     use 'numToStr/Comment.nvim'
+    --Git integration
+    use 'lewis6991/gitsigns.nvim'
+    use 'tpope/vim-fugitive'
 end)

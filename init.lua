@@ -10,4 +10,5 @@ require("plugins_config.lsp")
 require("plugins_config.alternate")
 require("plugins_config.autopairs")
 require("plugins_config.comment")
+require("plugins_config.gitsigns")
 
