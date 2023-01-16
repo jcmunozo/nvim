@@ -10,7 +10,6 @@ return require('packer').startup(function(use)
       tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
     use "nvim-lualine/lualine.nvim"
-    use {"akinsho/bufferline.nvim", tag = "v3.*"}
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
