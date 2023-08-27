@@ -38,5 +38,6 @@ dashboard.section.header.opts.hl = "Include"
 dashboard.section.buttons.opts.hl = "Keyword"
 
 dashboard.opts.opts.noautocmd = true
--- vim.cmd([[autocmd User AlphaReady echo 'ready']])
+vim.cmd([[ autocmd User AlphaReady :IndentLinesDisable ]])
+-- vim.cmd([[ autocmd User AlphaReady echo "Ready" ]])
 alpha.setup(dashboard.opts)

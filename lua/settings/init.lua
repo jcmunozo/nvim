@@ -39,4 +39,3 @@ set.cursorline = true
 set.cmdheight = 2
 set.numberwidth = 1
 vim.cmd [[syntax enable]]
-global.indentLine_fileTypeExclude = {"dashboard", "dashpreview"}
